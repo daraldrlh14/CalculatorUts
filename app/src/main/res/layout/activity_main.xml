@@ -41,23 +41,27 @@
                 android:id="@+id/tvClear"
                 style="@style/ActionButtonStyle"
                 android:textSize="25sp"
+                android:textStyle="bold"
                 android:text="@string/ce" />
 
             <TextView
                 android:id="@+id/tvOpen"
-                style="@style/ActionButtonStyle2"
+                style="@style/ActionButtonStyle"
                 android:textSize="25sp"
+                android:textStyle="bold"
                 android:text="(" />
 
             <TextView
                 android:id="@+id/tvClose"
-                style="@style/ActionButtonStyle2"
+                style="@style/ActionButtonStyle"
+                android:textStyle="bold"
                 android:textSize="25sp"
                 android:text=")" />
 
             <TextView
                 android:id="@+id/tvDivide"
-                style="@style/ActionButtonStyle2"
+                style="@style/ActionButtonStyle"
+                android:textStyle="bold"
                 android:textSize="25sp"
                 android:text="/" />
 
@@ -90,9 +94,10 @@
 
             <TextView
                 android:id="@+id/tvMul"
-                style="@style/ActionButtonStyle2"
+                style="@style/ActionButtonStyle"
                 android:textSize="25sp"
-                android:text="*" />
+                android:textStyle="bold"
+                android:text="X" />
         </LinearLayout>
 
         <LinearLayout
@@ -122,8 +127,9 @@
 
             <TextView
                 android:id="@+id/tvMinus"
-                style="@style/ActionButtonStyle2"
+                style="@style/ActionButtonStyle"
                 android:textSize="25sp"
+                android:textStyle="bold"
                 android:text="-" />
 
         </LinearLayout>
@@ -155,8 +161,9 @@
 
             <TextView
                 android:id="@+id/tvPlus"
-                style="@style/ActionButtonStyle2"
+                style="@style/ActionButtonStyle"
                 android:textSize="25sp"
+                android:textStyle="bold"
                 android:text="+" />
 
         </LinearLayout>
@@ -184,12 +191,14 @@
                 style="@style/ActionButtonStyle"
                 android:textSize="25sp"
                 android:scaleType="center"
+                android:textStyle="bold"
                 android:text="DEL"/>
 
             <TextView
                 android:id="@+id/tvEquals"
                 style="@style/ActionButtonStyle"
                 android:textSize="25sp"
+                android:textStyle="bold"
                 android:text="=" />
 
         </LinearLayout>
