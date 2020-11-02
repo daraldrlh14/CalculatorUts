@@ -46,6 +46,13 @@
                 android:text="FLR" />
 
             <TextView
+                android:id="@+id/tvAkar"
+                style="@style/ActionButtonStyle"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="√" />
+
+            <TextView
                 android:id="@+id/tvKuadrat2"
                 style="@style/ActionButtonStyle"
                 android:textStyle="bold"
