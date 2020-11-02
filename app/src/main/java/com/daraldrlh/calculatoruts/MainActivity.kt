@@ -31,8 +31,7 @@ class MainActivity : AppCompatActivity() {
         tvMinus.setOnClickListener { appendOnExpresstion("-", false) }
         tvMul.setOnClickListener { appendOnExpresstion("*", false) }
         tvDivide.setOnClickListener { appendOnExpresstion("/", false) }
-        tvOpen.setOnClickListener { appendOnExpresstion("(", false) }
-        tvClose.setOnClickListener { appendOnExpresstion(")", false) }
+        tvKuadrat2.setOnClickListener { appendOnExpresstion("^2", false) }
 
         tvClear.setOnClickListener {
             tvExpression.text = ""

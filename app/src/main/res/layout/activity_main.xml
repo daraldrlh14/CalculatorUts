@@ -34,6 +34,31 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tvFloor"
+                style="@style/ActionButtonStyle"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="FLR" />
+
+            <TextView
+                android:id="@+id/tvKuadrat2"
+                style="@style/ActionButtonStyle"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="x²" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal">
 
@@ -45,18 +70,19 @@
                 android:text="@string/ce" />
 
             <TextView
-                android:id="@+id/tvOpen"
+                android:id="@+id/tvRound"
                 style="@style/ActionButtonStyle"
-                android:textSize="25sp"
+                android:textSize="15sp"
                 android:textStyle="bold"
-                android:text="(" />
+                android:text="RND" />
 
             <TextView
-                android:id="@+id/tvClose"
+                android:id="@+id/tvCeiling"
                 style="@style/ActionButtonStyle"
                 android:textStyle="bold"
-                android:textSize="25sp"
-                android:text=")" />
+                android:textSize="15sp"
+                android:text="CLNG" />
+
 
             <TextView
                 android:id="@+id/tvDivide"
@@ -64,6 +90,8 @@
                 android:textStyle="bold"
                 android:textSize="35sp"
                 android:text="÷" />
+
+
 
 
         </LinearLayout>
