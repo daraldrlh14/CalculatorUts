@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/tvExpression"
+        android:id="@+id/tvResult2"
         android:layout_width="match_parent"
         android:layout_height="80sp"
         android:ellipsize="start"
@@ -110,25 +110,25 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/tvSeven"
+                android:id="@+id/tvTujuh"
                 style="@style/NumberButtonStyle"
                 android:textSize="25sp"
                 android:text="7" />
 
             <TextView
-                android:id="@+id/tvEight"
+                android:id="@+id/tvDelapan"
                 style="@style/NumberButtonStyle"
                 android:textSize="25sp"
                 android:text="8" />
 
             <TextView
-                android:id="@+id/tvNine"
+                android:id="@+id/tvSembilan"
                 style="@style/NumberButtonStyle"
                 android:textSize="25sp"
                 android:text="9" />
 
             <TextView
-                android:id="@+id/tvMul"
+                android:id="@+id/tvKali"
                 style="@style/ActionButtonStyle"
                 android:textSize="25sp"
                 android:textStyle="bold"
@@ -143,25 +143,25 @@
 
 
             <TextView
-                android:id="@+id/tvFour"
+                android:id="@+id/tvEmpat"
                 style="@style/NumberButtonStyle"
                 android:textSize="25sp"
                 android:text="4" />
 
             <TextView
-                android:id="@+id/tvFive"
+                android:id="@+id/tvLima"
                 style="@style/NumberButtonStyle"
                 android:textSize="25sp"
                 android:text="5" />
 
             <TextView
-                android:id="@+id/tvSix"
+                android:id="@+id/tvEnam"
                 style="@style/NumberButtonStyle"
                 android:textSize="25sp"
                 android:text="6" />
 
             <TextView
-                android:id="@+id/tvMinus"
+                android:id="@+id/tvKurang"
                 style="@style/ActionButtonStyle"
                 android:textSize="25sp"
                 android:textStyle="bold"
@@ -177,25 +177,25 @@
 
 
             <TextView
-                android:id="@+id/tvOne"
+                android:id="@+id/tvSatu"
                 style="@style/NumberButtonStyle"
                 android:textSize="25sp"
                 android:text="1" />
 
             <TextView
-                android:id="@+id/tvTwo"
+                android:id="@+id/tvDua"
                 style="@style/NumberButtonStyle"
                 android:textSize="25sp"
                 android:text="2" />
 
             <TextView
-                android:id="@+id/tvThree"
+                android:id="@+id/tvTiga"
                 style="@style/NumberButtonStyle"
                 android:textSize="25sp"
                 android:text="3" />
 
             <TextView
-                android:id="@+id/tvPlus"
+                android:id="@+id/tvTambah"
                 style="@style/ActionButtonStyle"
                 android:textSize="25sp"
                 android:textStyle="bold"
@@ -216,7 +216,7 @@
                 android:text="." />
 
             <TextView
-                android:id="@+id/tvZero"
+                android:id="@+id/tvNol"
                 style="@style/NumberButtonStyle"
                 android:textSize="25sp"
                 android:text="0" />
@@ -230,7 +230,7 @@
                 android:text="DEL"/>
 
             <TextView
-                android:id="@+id/tvEquals"
+                android:id="@+id/tvSamaDgn"
                 style="@style/ActionButtonStyle"
                 android:textSize="25sp"
                 android:textStyle="bold"
