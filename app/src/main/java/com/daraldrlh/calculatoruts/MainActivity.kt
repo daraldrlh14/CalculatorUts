@@ -37,6 +37,27 @@ class MainActivity : AppCompatActivity() {
             tvResult2.text = ""
             tvResult.text = ""
         }
+
+        tvAkar.setOnClickListener{
+            var akar1 = tvResult2.text.toString()
+            tvResult.text = Math.sqrt(akar1.toDouble()).toInt().toString()
+        }
+
+        tvFloor.setOnClickListener{
+            var floor1 = tvResult2.text.toString()
+            tvResult.text = Math.floor(floor1.toDouble()).toInt().toString()
+        }
+
+        tvRound.setOnClickListener{
+            var round1 = tvResult2.text.toString()
+            tvResult.text = (Math.round(round1.toDouble()*10.0)/10.0).toString()
+        }
+
+        tvCeiling.setOnClickListener{
+            var ceil1 = tvResult2.text.toString()
+            tvResult.text = Math.ceil(ceil1.toDouble()).toInt().toString()
+        }
+
         tvBack.setOnClickListener {
             val string = tvResult2.text.toString()
             if(string.isNotEmpty()){
