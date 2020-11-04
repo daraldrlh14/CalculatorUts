@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity() {
             tvResult2.text = ""
             tvResult.text = ""
         }
-
         tvBack.setOnClickListener {
             val string = tvResult2.text.toString()
             if(string.isNotEmpty()){
