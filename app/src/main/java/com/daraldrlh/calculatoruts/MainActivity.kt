@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //Numbers
+        //Angka
         tvSatu.setOnClickListener { appendOnExpresstion("1", true) }
         tvDua.setOnClickListener { appendOnExpresstion("2", true) }
         tvTiga.setOnClickListener { appendOnExpresstion("3", true) }
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         tvNol.setOnClickListener { appendOnExpresstion("0", true) }
         tvDot.setOnClickListener { appendOnExpresstion(".", true) }
 
-        //Operators
+        //Pembilang
         tvTambah.setOnClickListener { appendOnExpresstion("+", false) }
         tvKurang.setOnClickListener { appendOnExpresstion("-", false) }
         tvKali.setOnClickListener { appendOnExpresstion("*", false) }
